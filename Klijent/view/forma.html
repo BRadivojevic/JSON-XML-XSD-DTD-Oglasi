@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <a href="oglasi.html" class="btn btn-primary">Svi oglasi</a>
+    </nav>
+    <div class="container">
+        <h1 class="text-center">Svi oglasi</h1>
+        <div class="alert alert-danger" role="alert" id="alert" style="display: none;"></div>
+        <div>
+            <form action="/izmeniOglas" method="POST" onsubmit="return validateForma()">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Kategorija" name="id"
+                    value="##{ID}" style="display: none" />
+                <label class="form-label">Kategorija</label>
+                <input type="text" class="form-control" id="kat" placeholder="Kategorija" value="##{kategorija}"
+                    name="kategorija" />
+                <br>
+                <label>Datum</label>
+                <input type="date" class="form-control" id="dat" placeholder="Datum" value="##{datum}" name="datum" />
+                <br>
+                <label>Cena</label>
+                <input type="number" class="form-control" id="cena" placeholder="Cena" value="##{cena}" name="cena" />
+                <br>
+                <label>Tekst</label>
+                <input type="text" class="form-control" id="tekst" placeholder="Tekst" value="##{tekst}" name="tekst" />
+                <br>
+                <label>Oznake</label>
+                <input type="oznake" class="form-control" id="oznake" placeholder="Oznake (odvojene zarezom)"
+                    value="##{oznake}" name="oznake" />
+                <br>
+                <label>Email</label>
+                <input type="email" class="form-control" id="mail" placeholder="e-mail" value="##{email}"
+                    name="email" />
+                <br>
+                <button type="submit" class="btn btn-primary">Izmenite oglas</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script>
+        function validateForma() {
+            document.getElementById("alert").innerHTML = ""
+            flag = true;
+            if (document.querySelector("#kat").value == "") {
+                document.getElementById("alert").innerHTML += "Greska. Niste dodali kategoriju.<br>"
+                document.getElementById("alert").style.display = "block"
+                flag = false;
+            }
+            if (document.querySelector("#dat").value == "") {
+                document.getElementById("alert").innerHTML += "Greska. Niste dodali datum.<br>"
+                document.getElementById("alert").style.display = "block"
+                flag = false;
+            }
+            if (document.querySelector("#cena").value == "") {
+                document.getElementById("alert").innerHTML += "Greska. Niste dodali cenu.<br>"
+                document.getElementById("alert").style.display = "block"
+                flag = false;
+            }
+            if (document.querySelector("#tekst").value == "" || document.querySelector("#tekst").value.length < 10 || document.querySelector("#tekst").value.length > 180) {
+                document.getElementById("alert").innerHTML += "Proverite.<br>"
+                document.getElementById("alert").style.display = "block"
+                flag = false;
+            }
+            if (document.querySelector("#ozn").value == "") {
+                document.getElementById("alert").innerHTML += "Greska. Niste dodali oznake.<br>"
+                document.getElementById("alert").style.display = "block"
+                flag = false;
+            }
+            if (document.querySelector("#mail").value == "") {
+                document.getElementById("alert").innerHTML += "Greska. Niste dodali e-mail.<br>"
+                document.getElementById("alert").style.display = "block"
+                flag = false;
+            }
+            return flag;
+        }
+    </script>
+</body>
+
+</html>

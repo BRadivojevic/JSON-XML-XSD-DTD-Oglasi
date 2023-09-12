@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE Oglasi SYSTEM "Oglasi.dtd"> -->
+<Oglasi>
+    <Oglas>
+        <Kategorija>stanovi</Kategorija>
+        <DatumIstekaOglasa>2022-10-08</DatumIstekaOglasa>
+        <Cena valuta="eur">300</Cena>
+        <Tekst>Garsonjera za izdavanje u Vojvode Stepe, za studente</Tekst>
+        <Oznaka>Izdavanje</Oznaka>
+        <Oznaka>Garsonjera</Oznaka>
+        <Oznaka>Drugi sprat</Oznaka>
+        <Email vrsta="privatni">bosko.radivojevic@gmail.com</Email>
+    </Oglas>
+    <Oglas>
+        <Kategorija>automobili</Kategorija>
+        <DatumIstekaOglasa>2022-09-19</DatumIstekaOglasa>
+        <Cena valuta="eur">1700</Cena>
+        <Tekst>Mitsubishi Space Star, 2004, dobro ocuvan, malo presao</Tekst>
+        <Oznaka>2004</Oznaka>
+        <Oznaka>Mitsubishi</Oznaka>
+        <Oznaka>Space Star</Oznaka>
+        <Email vrsta="sluzbeni">zoran.petrovic@yahoo.com</Email>
+        <Email vrsta="privatni">zpetrovic@gmail.com</Email>
+    </Oglas>
+    <Oglas>
+        <Kategorija>kucni ljubimci</Kategorija>
+        <DatumIstekaOglasa>2022-08-10</DatumIstekaOglasa>
+        <Cena valuta="eur">300</Cena>
+        <Tekst>Stene kovrdzavog bisona</Tekst>
+        <Oznaka>Pedigre</Oznaka>
+        <Oznaka>Pas</Oznaka>
+        <Oznaka>Kovrdzavi bison</Oznaka>
+        <Email vrsta="privatni">jovana.racic@gmail.com</Email>
+    </Oglas>
+    <Oglas>
+        <Kategorija>laptopovi</Kategorija>
+        <DatumIstekaOglasa>2022-09-20</DatumIstekaOglasa>
+        <Cena valuta="din">125000</Cena>
+        <Tekst>Lenovo Thinkpad T430, novo, bez ostecenja, u garanciji</Tekst>
+        <Oznaka>Novo</Oznaka>
+        <Oznaka>Lenovo</Oznaka>
+        <Oznaka>Thinkpad T430</Oznaka>
+        <Email vrsta="sluzbeni">milan.zoric@yahoo.com</Email>
+        <Email vrsta="privatni">mz@gmail.com</Email>
+    </Oglas>
+</Oglasi>
