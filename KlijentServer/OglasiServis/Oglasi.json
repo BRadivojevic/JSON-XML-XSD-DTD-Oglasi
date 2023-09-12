@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "Kategorija": "stanovi",
+        "Datum Isteka": "2022-10-08",
+        "Cena": {
+            "Value": "300",
+            "Valuta": "eur"
+        },
+        "Tekst": "Garsonjera za izdavanje u Vojvode Stepe, za studente",
+        "Oznake": [
+            "Izdavanje",
+            "Garsonjera",
+            "Drugi sprat"
+        ],
+        "Emails": [
+            {
+                "Value": "bosko.radivojevic@gmail.com",
+                "vrsta": "privatni"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "Kategorija": "automobili",
+        "Datum Isteka": "2022-09-19",
+        "Cena": {
+            "Value": "1700",
+            "Valuta": "eur"
+        },
+        "Tekst": "Mitsubishi Space Star, 2004, dobro ocuvan, malo presao",
+        "Oznake": [
+            "2004",
+            "Mitsubishi",
+            "Space Star"
+        ],
+        "Emails": [
+            {
+                "Value": "zoran.petrovic@yahoo.com",
+                "vrsta": "sluzbeni"
+            },
+            {
+                "Value": "zpetrovic@gmail.com",
+                "vrsta": "privatni"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "Kategorija": "kucni ljubimci",
+        "Datum Isteka": "2022-08-10",
+        "Cena": {
+            "Value": "300",
+            "Valuta": "eur"
+        },
+        "Tekst": "Stene kovrdzavog bisona",
+        "Oznake": [
+            "Pedigre",
+            "Pas",
+            "Kovrdzavi bison"
+        ],
+        "Emails": [
+            {
+                "Value": "jovana.racic@gmail.com",
+                "vrsta": "privatni"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "Kategorija": "laptopovi",
+        "Datum Isteka": "2022-09-20",
+        "Cena": {
+            "Value": "125000",
+            "Valuta": "din"
+        },
+        "Tekst": "Lenovo Thinkpad T430, novo, bez ostecenja, u garanciji",
+        "Oznake": [
+            "Novo",
+            "Lenovo",
+            "Thinkpad T430"
+        ],
+        "Emails": [
+            {
+                "Value": "milan.zoric@yahoo.com",
+                "vrsta": "sluzbeni"
+            },
+            {
+                "Value": "mz@gmail.com",
+                "vrsta": "privatni"
+            }
+        ]
+    }
+]
